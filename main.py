@@ -47,7 +47,7 @@ while True:
                 except ValueError:
                     print("Please enter a number.")
                 else:
-                    if 3 <= wordlength < 22:
+                    if wordlength == 0 or 3 <= wordlength < 22:
                         break
                     else:
                         print("Invalid range")
